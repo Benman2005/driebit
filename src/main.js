@@ -1,6 +1,3 @@
-// module.exports.Library1 = require('./details');
-// module.exports.Library2 = require('./conversation');
-
 const requestURL = 'https://raw.githubusercontent.com/driebit/assignment/master/listdata.json';
 const request = new XMLHttpRequest();
 request.open('GET', requestURL);
