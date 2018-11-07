@@ -67,7 +67,7 @@
   #dateDiv{
     display: grid;
     grid-template-columns: 5% 80% 10%;
-    font-size: 4vmin;
+    font-size: 3vmin;
   }
   #date{
     margin-bottom: 0;  
@@ -417,4 +417,22 @@ li a {
   margin:auto;
   filter: invert(100%);
   margin-bottom: 25%;
+}
+#meetupDetails{
+  /* position: relative; */
+-webkit-animation: fadein 1.5s, slide-in 0.8s ease;
+-moz-animation: fadein 1.5s, slide-in 0.8s ease;
+animation: fadein 1.5s, slide-in 0.8s ease;
+}
+@keyframes fadein {
+  from{ 
+    opacity: 0;
+  };
+  to{ 
+    opacity: 1;
+  }
+}
+@keyframes slide-in{
+  0% { transform: translateY(20%); }
+    100% { transform: translateY(0%); }
 }
