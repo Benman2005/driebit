@@ -1,4 +1,4 @@
-const requestURL = 'https://raw.githubusercontent.com/driebit/assignment/master/listdata.json';
+const requestURL = 'https://raw.githubusercontent.com/benman2005/driebit/master/listdata.json';
 const request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
