@@ -30,6 +30,13 @@
     border-radius: 25px 0px 25px 0px;
     width: 35%;
   }
+  #body{
+    background-image: url("https://d1d5g9qzvtwux0.cloudfront.net/app/uploads/2017/09/Drukte-bij-opening-Hudsons-Bay-in-de-Heuvelstraat-in-Tilburg-e1505997660394.jpg") !important;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
   #meetupDetails{
     border-radius: 25px;
     padding: 2%;
@@ -60,7 +67,7 @@
   #dateDiv{
     display: grid;
     grid-template-columns: 5% 80% 10%;
-    font-size: 3vmin;
+    font-size: 4vmin;
   }
   #date{
     margin-bottom: 0;  
