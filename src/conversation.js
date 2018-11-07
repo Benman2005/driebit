@@ -11,7 +11,7 @@ window.onload = function() {
   document.getElementById('profession').textContent = conversation.author.profession
   document.getElementById('postContent').textContent = conversation.body
   postDate = conversation.post_date.replace(' ', '')
-  document.getElementById('date').textContent = moment(postDate).locale('nl').format('LL')
+  document.getElementById('date2').textContent = moment(postDate).locale('nl').format('LL')
   moment(postDate).locale('nl').format('LL')
   document.getElementById('likes').textContent = conversation.likes + ' waarderingen'
   conversation.comments.length === 1 ? 
